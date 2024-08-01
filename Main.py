@@ -135,6 +135,8 @@ def run_alexa():
             talk(info)
         elif 'are you single' in command:
             talk('I am in a relationship with WIFI')
+        elif 'naachna' in command:
+            talk('Me naachungi')
         elif 'alternative name for' in command:
             contact_name = command.replace('alternative name for', '').strip()
             alt_name = get_contact_from_alternatives(contact_name)
