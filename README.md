@@ -7,20 +7,29 @@ Basanti is a Python-based voice assistant capable of performing various tasks su
 Features
 
 Speech Recognition: Converts spoken words into text using the speech_recognition library.
+
 Text-to-Speech: Provides verbal feedback using the pyttsx3 library.
+
 Dynamic Command Management: Allows users to add alternative names for commands.
+
 Contact Management: Saves and retrieves contacts with alternative names.
+
 Persistent Storage: Stores commands and contacts in JSON files for persistence across sessions.
+
 Music Playback: Plays songs on YouTube using the pywhatkit library.
+
 Time Reporting: Tells the current time.
+
 Wikipedia Search: Provides summaries from Wikipedia.
+
 Error Handling: Handles various exceptions during command recognition and execution.
+
 Installation
 Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/basanti-voice-assistant.git
+git clone https://github.com/ihimanshu_tech/basanti.git
 cd basanti-voice-assistant
 Install the required libraries:
 
